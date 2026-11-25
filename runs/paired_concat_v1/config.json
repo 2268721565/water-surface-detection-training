@@ -1,0 +1,19 @@
+{
+  "split": "splits/v1",
+  "epochs": 18,
+  "batch": 12,
+  "seed": 42,
+  "initial_checkpoints": {
+    "runs/above_single_v1/fit/weights/best.pt": "f76369e272fd48a446c5a8e0037fb3111e9477bec9dd29fa7d59004475ad6297",
+    "runs/underwater_single_v1/fit/weights/best.pt": "8f5c2b3b93c488faa6949850260d0d37a28f1fd0db6f0ee8e2aae4570dac407d"
+  },
+  "input_size": 960,
+  "learning_rate": 0.001,
+  "optimizer": "AdamW",
+  "lightweight_fusion_only": true,
+  "confidence": 0.25,
+  "match_iou": 0.5,
+  "ultralytics": "8.4.9",
+  "selection": "mean validation mAP50-95 across both views",
+  "shuffled": "rotate partner features inside same-condition batches at evaluation"
+}

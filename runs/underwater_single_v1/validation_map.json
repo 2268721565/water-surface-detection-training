@@ -1,0 +1,11 @@
+{
+  "checkpoint": "fit/weights/best.pt",
+  "images": 300,
+  "metrics": {
+    "metrics/precision(B)": 0.9281453412864016,
+    "metrics/recall(B)": 0.8716596880803125,
+    "metrics/mAP50(B)": 0.9172402871755645,
+    "metrics/mAP50-95(B)": 0.6615437738833023,
+    "fitness": 0.6615437738833023
+  }
+}

@@ -1,0 +1,4 @@
+path: "runs/above_single_v1/dataset"
+names: [bottle, can]
+train: images/train
+val: images/val

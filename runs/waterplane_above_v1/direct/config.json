@@ -1,0 +1,18 @@
+{
+  "mode": "direct",
+  "epochs": 12,
+  "batch": 12,
+  "seed": 42,
+  "source_offsets_px": [
+    -32,
+    0,
+    32
+  ],
+  "selection": "above-water validation mAP50-95",
+  "split": "splits/v1",
+  "projection_band": "forward rays below above-water horizon",
+  "checkpoints": {
+    "runs/above_single_v1/fit/weights/best.pt": "f76369e272fd48a446c5a8e0037fb3111e9477bec9dd29fa7d59004475ad6297",
+    "runs/underwater_single_v1/fit/weights/best.pt": "8f5c2b3b93c488faa6949850260d0d37a28f1fd0db6f0ee8e2aae4570dac407d"
+  }
+}
